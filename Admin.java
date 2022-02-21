@@ -106,7 +106,7 @@ public class Admin {
                     "\t\t  " + customer.getEmail() + "\t\t  " + customer.getAddress() + "\t\t  " + customer.getPostalCode() + "\t\t  " + customer.getBalance() + "\n");
         }
         if (j == 1) {
-            customersList = "there is no any signed up seller yet.\n";
+            customersList = "there is no any signed up customer yet.\n";
         }
         
         return sellerList.concat("\n").concat(customersList);

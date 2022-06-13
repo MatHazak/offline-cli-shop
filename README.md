@@ -5,4 +5,4 @@ There is three role in shop; customer, seller and admin. admin is unique and pre
 <br>
 Shop has log and database both stored on .txt files. important events record in log and admin can see it.
 <br>
-also shop data will be writed to database before closing the program and will be readed from after running the program.
+shop data will be written to database before the program terminated and will be read from database after the program started.
